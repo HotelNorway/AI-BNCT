@@ -1,2 +1,0 @@
-# PEPT
-GitHub Pages
