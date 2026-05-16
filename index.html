@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Powered Boron Carrier Discovery - 4-Year Work Plan</title>
+    <title>AI-Powered Boron Carrier Discovery - 3-Year Work Plan</title>
     <style>
         * {
             margin: 0;
@@ -18,7 +18,7 @@
         }
         
         .container {
-            max-width: 1800px;
+            max-width: 1500px;
             margin: 0 auto;
             background: white;
             padding: 30px;
@@ -69,13 +69,13 @@
         }
         
         .gantt-chart {
-            min-width: 1600px;
+            min-width: 1400px;
             margin-top: 20px;
         }
         
         .timeline-header {
             display: grid;
-            grid-template-columns: 280px repeat(16, 1fr);
+            grid-template-columns: 280px repeat(12, 1fr);
             border-bottom: 2px solid #34495e;
             margin-bottom: 10px;
             position: sticky;
@@ -100,7 +100,7 @@
         
         .timeline-quarters {
             display: grid;
-            grid-template-columns: 280px repeat(16, 1fr);
+            grid-template-columns: 280px repeat(12, 1fr);
             border-bottom: 1px solid #bdc3c7;
             margin-bottom: 5px;
         }
@@ -122,7 +122,7 @@
         
         .task-row {
             display: grid;
-            grid-template-columns: 280px repeat(16, 1fr);
+            grid-template-columns: 280px repeat(12, 1fr);
             min-height: 35px;
             align-items: center;
             border-bottom: 1px solid #ecf0f1;
@@ -149,7 +149,7 @@
         }
         
         .task-bar {
-            height: 40px;
+            height: 36px;
             border-radius: 4px;
             display: flex;
             align-items: center;
@@ -171,8 +171,6 @@
         .ai-comp { background: linear-gradient(135deg, #3498db, #2980b9); }
         .chemistry { background: linear-gradient(135deg, #e74c3c, #c0392b); }
         .radiopharma { background: linear-gradient(135deg, #2ecc71, #27ae60); }
-        /* .imaging { background: linear-gradient(135deg, #9b59b6, #8e44ad); } */
-        /*.social-sci { background: linear-gradient(135deg, #f39c12, #d68910); }*/
         .social-sci { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
         .integration { background: linear-gradient(135deg, #1abc9c, #16a085); }
         .deliverable { background: linear-gradient(135deg, #e67e22, #d35400); border: 2px solid #d35400; }
@@ -224,7 +222,7 @@
 <body>
     <div class="container">
         <h1>AI-Powered Discovery of Next-Generation Boron Carriers</h1>
-        <p class="subtitle">4-Year Work Plan with Interdisciplinary Integration Points and Deliverables</p>
+        <p class="subtitle">3-Year Work Plan with Interdisciplinary Integration Points and Deliverables</p>
         
         <div class="legend">
             <div class="legend-item">
@@ -239,12 +237,6 @@
                 <div class="legend-color radiopharma"></div>
                 <span>Radiopharmaceutical (Wu)</span>
             </div>
-            <!--
-            <div class="legend-item">
-                <div class="legend-color imaging"></div>
-                <span>Medical Imaging (Chang)</span>
-            </div>
-            -->
             <div class="legend-item">
                 <div class="legend-color social-sci"></div>
                 <span>Social Science (Joly)</span>
@@ -267,16 +259,11 @@
                     <div class="timeline-year">Year 1</div>
                     <div class="timeline-year">Year 2</div>
                     <div class="timeline-year">Year 3</div>
-                    <div class="timeline-year">Year 4</div>
                 </div>
                 
                 <!-- Quarters -->
                 <div class="timeline-quarters">
                     <div class="quarter-label"></div>
-                    <div class="quarter-label">Q1</div>
-                    <div class="quarter-label">Q2</div>
-                    <div class="quarter-label">Q3</div>
-                    <div class="quarter-label">Q4</div>
                     <div class="quarter-label">Q1</div>
                     <div class="quarter-label">Q2</div>
                     <div class="quarter-label">Q3</div>
@@ -313,13 +300,13 @@
                 <div class="task-row">
                     <div class="task-label">Transporter Expression Profiling</div>
                     <div style="grid-column: 2 / 4; padding: 4px;">
-                        <div class="task-bar ai-comp">20 cancer types</div> <!--, LAT1/ASCT2/xCT/GLUT1-->
+                        <div class="task-bar ai-comp">20 cancer types</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">AI Architecture Development</div>
-                    <div style="grid-column: 3 / 6; padding: 4px;">
+                    <div style="grid-column: 3 / 5; padding: 4px;">
                         <div class="task-bar ai-comp">Multi-objective generative model</div>
                     </div>
                 </div>
@@ -333,28 +320,28 @@
                 
                 <div class="task-row">
                     <div class="task-label">AI Model Retraining (Cycle 2)</div>
-                    <div style="grid-column: 9 / 10; padding: 4px;">
+                    <div style="grid-column: 7 / 8; padding: 4px;">
                         <div class="task-bar ai-comp">30 refined candidates</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Cancer Type Representation Analysis</div>
-                    <div style="grid-column: 11 / 13; padding: 4px;">
-                        <div class="task-bar ai-comp">Rare vs. common cancer balance</div>
+                    <div style="grid-column: 9 / 10; padding: 4px;">
+                        <div class="task-bar ai-comp">Balance audit</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">3rd Generation AI (Final)</div>
-                    <div style="grid-column: 13 / 14; padding: 4px;">
+                    <div style="grid-column: 10 / 11; padding: 4px;">
                         <div class="task-bar ai-comp">Optimized</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Platform Open-Source Release</div>
-                    <div style="grid-column: 16 / 17; padding: 4px;">
+                    <div style="grid-column: 12 / 13; padding: 4px;">
                         <div class="task-bar deliverable">Public release</div>
                     </div>
                 </div>
@@ -370,35 +357,35 @@
                     <div style="grid-column: 4 / 5; padding: 4px;">
                         <div class="task-bar chemistry">Gen 1: Select 10</div>
                     </div>
-                    <div style="grid-column: 9 / 10; padding: 4px;">
+                    <div style="grid-column: 7 / 8; padding: 4px;">
                         <div class="task-bar chemistry">Gen 2</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Synthesis - Generation 1</div>
-                    <div style="grid-column: 5 / 6; padding: 4px;">
+                    <div style="grid-column: 4 / 5; padding: 4px;">
                         <div class="task-bar chemistry">3-5 carriers</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Synthesis - Generation 2</div>
-                    <div style="grid-column: 9 / 11; padding: 4px;">
+                    <div style="grid-column: 7 / 10; padding: 4px;">
                         <div class="task-bar chemistry">5-7 carriers</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Scale-Up Lead Candidates</div>
-                    <div style="grid-column: 12 / 14; padding: 4px;">
+                    <div style="grid-column: 9 / 12; padding: 4px;">
                         <div class="task-bar chemistry">Gram quantities (2-3 leads)</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Characterization & QC</div>
-                    <div style="grid-column: 5 / 14; padding: 4px;">
+                    <div style="grid-column: 4 / 12; padding: 4px;">
                         <div class="task-bar chemistry">NMR, MS, HPLC validation</div>
                     </div>
                 </div>
@@ -411,88 +398,53 @@
                 
                 <div class="task-row">
                     <div class="task-label">Radiolabeling Protocol Development</div>
-                    <div style="grid-column: 5 / 6; padding: 4px;">
+                    <div style="grid-column: 4 / 5; padding: 4px;">
                         <div class="task-bar radiopharma">Radiolabeling methods</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Cellular Uptake Studies (Gen 1)</div>
-                    <div style="grid-column: 6 / 8; padding: 4px;">
+                    <div style="grid-column: 5 / 7; padding: 4px;">
                         <div class="task-bar radiopharma">ICP-MS, transporter assays</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Animal Studies - Gen 1</div>
-                    <div style="grid-column: 8 / 9; padding: 4px;">
+                    <div style="grid-column: 6 / 7; padding: 4px;">
                         <div class="task-bar radiopharma">2-3 tumor models</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Diverse Cell Line Panel Testing</div>
-                    <div style="grid-column: 10 / 12; padding: 4px;">
+                    <div style="grid-column: 8 / 10; padding: 4px;">
                         <div class="task-bar radiopharma">European, Asian, African American lines</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Animal Studies - Gen 2 (Expanded)</div>
-                    <div style="grid-column: 10 / 12; padding: 4px;">
+                    <div style="grid-column: 8 / 10; padding: 4px;">
                         <div class="task-bar radiopharma">6-8 cancer types</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Medical Imaging Studies</div>
-                    <div style="grid-column: 12 / 14; padding: 4px;">
+                    <div style="grid-column: 9 / 11; padding: 4px;">
                         <div class="task-bar radiopharma">Dual-function carriers</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Final Validation & Toxicology</div>
-                    <div style="grid-column: 14 / 16; padding: 4px;">
+                    <div style="grid-column: 11 / 13; padding: 4px;">
                         <div class="task-bar radiopharma">Lead candidates</div>
                     </div>
                 </div>
                 
-                <!-- Medical Imaging (Chang) -->
-                <!--
-                <div class="section-divider"></div>
-                <div class="task-row">
-                    <div class="task-label discipline">Medical Imaging (Norway)</div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">Monte Carlo Platform Setup</div>
-                    <div style="grid-column: 2 / 4; padding: 4px;">
-                        <div class="task-bar imaging">TOPAS/Geant4</div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">Dose Calculations - Gen 1</div>
-                    <div style="grid-column: 8 / 9; padding: 4px;">
-                        <div class="task-bar imaging">BNCT dosimetry</div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">PET Image Analysis Pipeline</div>
-                    <div style="grid-column: 11 / 13; padding: 4px;">
-                        <div class="task-bar imaging">Quantitative analysis</div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">AI-Integrated Dosimetry Tool</div>
-                    <div style="grid-column: 14 / 16; padding: 4px;">
-                        <div class="task-bar imaging">Real-time optimization</div>
-                    </div>
-                </div>
-                -->
                 <!-- Social Science (Joly) -->
                 <div class="section-divider"></div>
                 <div class="task-row">
@@ -501,7 +453,7 @@
                 
                 <div class="task-row">
                     <div class="task-label">Data Governance Framework</div>
-                    <div style="grid-column: 2 / 5; padding: 4px">
+                    <div style="grid-column: 2 / 4; padding: 4px">
                         <div class="task-bar social-sci">Expression database protocols</div>
                     </div>
                 </div>
@@ -512,7 +464,7 @@
                         <div class="task-bar social-sci">Patients, rare cancer groups, clinicians</div>
                     </div>
                 </div>
-                <!---->
+                
                 <div class="task-row">
                 <div class="task-label">Cycle 1: Data Selection & Consent Verification</div>
                 <div style="grid-column: 4 / 5; padding: 4px;">
@@ -522,64 +474,49 @@
 
                 <div class="task-row">
                     <div class="task-label">Cycle 1: Equity Analysis</div>
-                    <div style="grid-column: 8 / 9; padding: 4px;">
+                    <div style="grid-column: 5 / 7; padding: 4px;">
                         <div class="task-bar social-sci">Bias check, accessibility audit</div>
                     </div>
                 </div>
 
                 <div class="task-row">
                     <div class="task-label">Cycle 2: Data Selection & Equity Review</div>
-                    <div style="grid-column: 9 / 10; padding: 4px;">
+                    <div style="grid-column: 6 / 8; padding: 4px;">
                         <div class="task-bar social-sci">Representation gaps from Cycle 1</div>
                     </div>
                 </div>
 
                 <div class="task-row">
                     <div class="task-label">Cycle 2: Equity Analysis</div>
-                    <div style="grid-column: 12 / 13; padding: 4px;">
+                    <div style="grid-column: 8 / 10; padding: 4px;">
                         <div class="task-bar social-sci">Bias check, accessibility audit</div>
                     </div>
                 </div>
 
                 <div class="task-row">
                     <div class="task-label">Cycle 3: Data Selection & Equity Review</div>
-                    <div style="grid-column: 13 / 14; padding: 4px;">
+                    <div style="grid-column: 10 / 11; padding: 4px;">
                         <div class="task-bar social-sci">Optimization priorities</div>
                     </div>
                 </div>
 
                 <div class="task-row">
                     <div class="task-label">Cycle 3: Equity Analysis</div>
-                    <div style="grid-column: 15 / 16; padding: 4px;">
+                    <div style="grid-column: 11 / 12; padding: 4px;">
                         <div class="task-bar social-sci">Equity assessment</div>
-                    </div>
-                </div>
-                <!---->
-                <!--
-                <div class="task-row">
-                    <div class="task-label">Cancer Type Representation Audit</div>
-                    <div style="grid-column: 11 / 13; padding: 4px;">
-                        <div class="task-bar social-sci">Rare vs. common cancer equity</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
-                    <div class="task-label">Access Equity Analysis</div>
-                    <div style="grid-column: 12 / 14; padding: 4px;">
-                        <div class="task-bar social-sci">Platform adoption barriers</div>
-                    </div>
-                </div>
-                -->
-                <div class="task-row">
                     <div class="task-label">Regulatory Pathway Analysis</div>
-                    <div style="grid-column: 14 / 16; padding: 4px;">
+                    <div style="grid-column: 11 / 13; padding: 4px;">
                         <div class="task-bar social-sci">TFDA/EMA/FDA guidance</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Policy White Paper</div>
-                    <div style="grid-column: 16 / 17; padding: 4px;">
+                    <div style="grid-column: 12 / 14; padding: 4px;">
                         <div class="task-bar deliverable">Publication</div>
                     </div>
                 </div>
@@ -609,50 +546,23 @@
                     <div style="grid-column: 3 / 3; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
-                    <div style="grid-column: 7 / 7; padding: 4px;">
+                    <div style="grid-column: 6 / 6; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
-                    <div style="grid-column: 11 / 11; padding: 4px;">
+                    <div style="grid-column: 9 / 9; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
-                    <div style="grid-column: 15 / 15; padding: 4px;">
+                    <div style="grid-column: 12 / 12; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Cross-Team Integration Workshops</div>
-                    <div style="grid-column: 6 / 6; padding: 4px;">
+                    <div style="grid-column: 5 / 5; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
-                    <div style="grid-column: 10 / 10; padding: 4px;">
-                        <div class="milestone"></div>
-                    </div>
-                    <div style="grid-column: 14 / 14; padding: 4px;">
-                        <div class="milestone"></div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">Researcher Rotations</div>
-                    <div style="grid-column: 3 / 16; padding: 4px;">
-                        <div class="task-bar integration">Continuous cross-lab training</div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">Clinical Stakeholder Workshop</div>
-                    <div style="grid-column: 7 / 7; padding: 4px;">
-                        <div class="milestone"></div>
-                    </div>
-                    <div style="grid-column: 15 / 15; padding: 4px;">
-                        <div class="milestone"></div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">Rare Cancer Community Engagement</div>
-                    <div style="grid-column: 7 / 7; padding: 4px;">
+                    <div style="grid-column: 8 / 8; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
                     <div style="grid-column: 11 / 11; padding: 4px;">
@@ -661,8 +571,35 @@
                 </div>
                 
                 <div class="task-row">
+                    <div class="task-label">Researcher Rotations</div>
+                    <div style="grid-column: 3 / 12; padding: 4px;">
+                        <div class="task-bar integration">Continuous cross-lab training</div>
+                    </div>
+                </div>
+                
+                <div class="task-row">
+                    <div class="task-label">Clinical Stakeholder Workshop</div>
+                    <div style="grid-column: 6 / 6; padding: 4px;">
+                        <div class="milestone"></div>
+                    </div>
+                    <div style="grid-column: 11 / 11; padding: 4px;">
+                        <div class="milestone"></div>
+                    </div>
+                </div>
+                
+                <div class="task-row">
+                    <div class="task-label">Rare Cancer Community Engagement</div>
+                    <div style="grid-column: 6 / 6; padding: 4px;">
+                        <div class="milestone"></div>
+                    </div>
+                    <div style="grid-column: 9 / 9; padding: 4px;">
+                        <div class="milestone"></div>
+                    </div>
+                </div>
+                
+                <div class="task-row">
                     <div class="task-label">International Training Workshop</div>
-                    <div style="grid-column: 16 / 17; padding: 4px;">
+                    <div style="grid-column: 12 / 14; padding: 4px;">
                         <div class="task-bar deliverable">30-40 participants</div>
                     </div>
                 </div>
@@ -675,57 +612,57 @@
                 
                 <div class="task-row">
                     <div class="task-label">D1: AI Platform V1.0</div>
-                    <div style="grid-column: 6 / 6; padding: 4px;">
-                        <div class="milestone"></div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">D2: Gen 1 Validation Report</div>
-                    <div style="grid-column: 9 / 9; padding: 4px;">
-                        <div class="milestone"></div>
-                    </div>
-                </div>
-                
-                <div class="task-row">
-                    <div class="task-label">D3: Data Governance Framework</div>
                     <div style="grid-column: 5 / 5; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
                 </div>
                 
                 <div class="task-row">
+                    <div class="task-label">D2: Gen 1 Validation Report</div>
+                    <div style="grid-column: 7 / 7; padding: 4px;">
+                        <div class="milestone"></div>
+                    </div>
+                </div>
+                
+                <div class="task-row">
+                    <div class="task-label">D3: Data Governance Framework</div>
+                    <div style="grid-column: 4 / 4; padding: 4px;">
+                        <div class="milestone"></div>
+                    </div>
+                </div>
+                
+                <div class="task-row">
                     <div class="task-label">D4: Cell Line Diversity Report</div>
-                    <div style="grid-column: 12 / 12; padding: 4px;">
+                    <div style="grid-column: 9 / 9; padding: 4px;">
                         <div class="milestone"></div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">D5: Carrier Library (5-10 validated)</div>
-                    <div style="grid-column: 13 / 14; padding: 4px;">
+                    <div style="grid-column: 10 / 11; padding: 4px;">
                         <div class="task-bar deliverable">Preclinical package</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">D6: Open-Source Platform Release</div>
-                    <div style="grid-column: 16 / 17; padding: 4px;">
+                    <div style="grid-column: 12 / 13; padding: 4px;">
                         <div class="task-bar deliverable">GitHub + documentation</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
-                    <div class="task-label">D7: IND-Enabling Documentation</div>
-                    <div style="grid-column: 15 / 18; padding: 4px;">
-                        <div class="task-bar deliverable">Lead candidates</div>
+                    <div class="task-label">D7: Translation Roadmap</div>
+                    <div style="grid-column: 11 / 14; padding: 4px;">
+                        <div class="task-bar deliverable">Regulatory pathway, lead candidates</div>
                     </div>
                 </div>
                 
                 <div class="task-row">
                     <div class="task-label">Publications (Est. 8-12 papers)</div>
-                    <div style="grid-column: 5 / 18; padding: 4px;">
-                        <div class="task-bar deliverable">Nature/Science journals, policy publications</div>
+                    <div style="grid-column: 4 / 14; padding: 4px;">
+                        <div class="task-bar deliverable">High-impact journals, policy publications</div>
                     </div>
                 </div>
             </div>
@@ -734,11 +671,11 @@
         <div style="margin-top: 30px; padding: 20px; background: #f8f9fa; border-radius: 5px; font-size: 12px; color: #555;">
             <strong>Key Integration Mechanisms:</strong>
             <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
-                <li><strong>Closed-Loop Validation:</strong> AI predictions → Synthesis → Radiolabeling → Biological testing → Results retrain AI (6-9 month cycles)</li>
+                <li><strong>Closed-Loop Validation:</strong> Data selection (Joly) → AI predictions (Timonen) → Synthesis (Sydnes) → Radiolabeling (Wu) → Biological testing (Wu) → Technical results + Equity analysis (Joly) → Feed back to AI (Timonen) → Improved predictions (9-12 month cycles)</li>
                 <li><strong>Co-Design Workshops:</strong> Semi-annual meetings where all teams jointly review candidates, experimental results, and equity implications</li>
                 <li><strong>Cross-Disciplinary Training:</strong> Researchers rotate between labs for hands-on exposure to complementary methodologies</li>
                 <li><strong>Stakeholder Engagement:</strong> Regular consultations with patient groups (including rare cancer communities), clinicians, and regulatory agencies throughout project lifecycle</li>
-                <li><strong>EDI Integration:</strong> Cancer type representation analysis ensures balanced focus on rare and common cancers; cell line diversity panels validate carriers across ethnic backgrounds</li>
+                <li><strong>EDI Integration:</strong> Cancer type representation analysis ensures balanced focus on rare and common cancers; cell line diversity panels validate carriers across ethnic backgrounds; equity analysis integrated at each cycle checkpoint</li>
             </ul>
         </div>
     </div>
